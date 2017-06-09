@@ -2,7 +2,7 @@
   "name": "react-stepper-horizontal",
   "version": "1.0.6",
   "description": "Well-designed stepper component for react",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
