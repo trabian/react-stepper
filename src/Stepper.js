@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import Step from './Step';
 
@@ -20,7 +21,7 @@ function Stepper({
   activeColor, completeColor, defaultColor, circleFontColor,
   activeTitleColor, completeTitleColor, defaultTitleColor,
   size, circleFontSize, titleFontSize,
-  circleTop, titleTop,
+  circleTop, titleTop, activeOpacity, defaultOpacity, completeOpactiy
 }) {
   return (
     <div style={ styles.root }>
@@ -49,6 +50,9 @@ function Stepper({
             titleFontSize={titleFontSize}
             circleTop={circleTop}
             titleTop={titleTop}
+            activeOpacity={activeOpacity}
+            defaultOpacity={defaultOpacity}
+            completeOpactiy={completeOpactiy}
           />
         )) }
       </div>
